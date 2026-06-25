@@ -62,8 +62,9 @@ Replace the installed Tampermonkey script contents with the latest version from 
 
 `tampermonkey` works, but it is broad. Better names for this repository would be:
 
+- `tampermonkey-userscripts`
 - `browser-shortcut-userscripts`
 - `productivity-userscripts`
 - `keyboard-shortcut-userscripts`
 
-`browser-shortcut-userscripts` is the clearest fit for the current contents.
+`tampermonkey-userscripts` is the clearest fit because these scripts depend on Tampermonkey and are not generic browser extensions.
