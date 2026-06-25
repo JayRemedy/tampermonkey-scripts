@@ -1,6 +1,6 @@
-# Browser Shortcut Userscripts
+# Tampermonkey Scripts
 
-Personal Tampermonkey userscripts for faster keyboard navigation in Google Calendar, Gmail, and monday.com.
+Personal Tampermonkey scripts for faster keyboard navigation in Google Calendar, Gmail, and monday.com.
 
 These scripts are intentionally small and dependency-free. They listen for site-specific keyboard shortcuts, avoid taking over editable fields when possible, and fall back to direct navigation where that is safer than relying on a visible sidebar link.
 
@@ -56,15 +56,15 @@ Replace the installed Tampermonkey script contents with the latest version from 
 
 - These scripts target macOS-style shortcuts with the Command key.
 - Gmail and Google Calendar shortcuts avoid editable fields so normal text editing shortcuts keep working.
-- Site DOM changes can break userscripts. If a shortcut stops working, check the browser console for warnings from the relevant script.
+- Site DOM changes can break scripts. If a shortcut stops working, check the browser console for warnings from the relevant script.
 
 ## Repository Name
 
 `tampermonkey` works, but it is broad. Better names for this repository would be:
 
-- `tampermonkey-userscripts`
+- `tampermonkey-scripts`
 - `browser-shortcut-userscripts`
 - `productivity-userscripts`
 - `keyboard-shortcut-userscripts`
 
-`tampermonkey-userscripts` is the clearest fit because these scripts depend on Tampermonkey and are not generic browser extensions.
+`tampermonkey-scripts` is the clearest fit because these scripts depend on Tampermonkey and the name stays short.
