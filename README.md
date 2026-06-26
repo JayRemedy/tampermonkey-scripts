@@ -10,7 +10,7 @@ These scripts are intentionally small and dependency-free. They listen for site-
 | --- | --- | --- |
 | `google-calendar-robust-shortcuts.user.js` | Google Calendar | `Cmd+B`, `Cmd+1` through `Cmd+9`, `Cmd+0` |
 | `gmail-keyboard-sidebar-shortcuts.user.js` | Gmail | `Cmd+B`, `Cmd+1` through `Cmd+6` |
-| `monday-left-pane-shortcuts.user.js` | monday.com | `Cmd+B`, `Cmd+1` through `Cmd+9` |
+| `monday-left-pane-shortcuts.user.js` | monday.com | `Cmd+B`, `Cmd+1` through `Cmd+9`, `Cmd+Left`, `Cmd+Right` |
 
 ## Shortcut Maps
 
@@ -40,6 +40,8 @@ These scripts are intentionally small and dependency-free. They listen for site-
 | --- | --- |
 | `Cmd+B` | Collapse or expand the left pane. |
 | `Cmd+1` through `Cmd+9` | Open visible workspace or board items by order, skipping the first option. |
+| `Cmd+Left` | Switch to the previous table or view tab. |
+| `Cmd+Right` | Switch to the next table or view tab. |
 
 ## Installation
 
@@ -57,14 +59,3 @@ Replace the installed Tampermonkey script contents with the latest version from 
 - These scripts target macOS-style shortcuts with the Command key.
 - Gmail and Google Calendar shortcuts avoid editable fields so normal text editing shortcuts keep working.
 - Site DOM changes can break scripts. If a shortcut stops working, check the browser console for warnings from the relevant script.
-
-## Repository Name
-
-`tampermonkey` works, but it is broad. Better names for this repository would be:
-
-- `tampermonkey-scripts`
-- `browser-shortcut-userscripts`
-- `productivity-userscripts`
-- `keyboard-shortcut-userscripts`
-
-`tampermonkey-scripts` is the clearest fit because these scripts depend on Tampermonkey and the name stays short.
